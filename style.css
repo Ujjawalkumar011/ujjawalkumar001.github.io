@@ -1,0 +1,104 @@
+body {
+  font-family: Arial;
+  margin: 0;
+  background: #f4f7fb;
+  color: #333;
+  transition: 0.3s;
+}
+
+/* Dark Mode */
+.dark-mode {
+  background: #121212;
+  color: white;
+}
+
+.dark-mode .card {
+  background: #1e1e1e;
+  color: white;
+}
+
+/* Button */
+.toggle-btn {
+  position: fixed;
+  top: 10px;
+  right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+/* Hero */
+.hero {
+  background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+  color: white;
+  text-align: center;
+  padding: 60px 20px;
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 10px 20px;
+  background: white;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+/* Card */
+.card {
+  width: 80%;
+  margin: 20px auto;
+  padding: 20px;
+  background: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  transition: transform 0.3s;
+}
+
+.card:hover {
+  transform: scale(1.02);
+}
+
+/* Skills */
+.skills span {
+  background: #203a43;
+  color: white;
+  padding: 8px 12px;
+  margin: 5px;
+  border-radius: 20px;
+  display: inline-block;
+}
+
+/* Projects */
+.project-card {
+  background: #e8eef5;
+  margin: 10px 0;
+  padding: 10px;
+  border-radius: 8px;
+  transition: 0.3s;
+}
+
+.project-card:hover {
+  background: #cfd9e6;
+  transform: translateX(5px);
+}
+
+/* Links */
+a {
+  color: #0a66c2;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 15px;
+  background: #203a43;
+  color: white;
+  margin-top: 30px;
+}
